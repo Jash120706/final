@@ -17,8 +17,8 @@ COPY client/dist ./client/dist
 WORKDIR /app/server
 
 ENV NODE_ENV=production
-ENV PORT=5174
+ENV PORT=5000
 
-EXPOSE 5174
+EXPOSE 5000
 
 CMD ["node", "server.js"]
